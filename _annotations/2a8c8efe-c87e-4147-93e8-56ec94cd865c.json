@@ -1,0 +1,30 @@
+---
+canvas: "http://iiif.benschmidt.org/iiif/3/a014704318_01/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "James Anderson Signature",
+            "purpose": "commenting",
+            "creator": {
+                "id": "bmschmidt",
+                "name": "Benjamin Schmidt"
+            },
+            "created": "2021-08-10T19:01:04.861Z",
+            "modified": "2021-08-10T19:01:09.884Z"
+        }
+    ],
+    "target": {
+        "source": "http://iiif.benschmidt.org/iiif/3/a014704318_01/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:921.7904052734375,1288.0167236328125,1022.5882568359375,250.4864501953125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/2a8c8efe-c87e-4147-93e8-56ec94cd865c.json"
+}
